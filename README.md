@@ -31,7 +31,7 @@ Convert XML annotations to CSV format for improved data utilization
 
 This code demonstrates the process of building damage detection using Regional Based Convolutional Neural Networks (RCNNs). It involves preprocessing images and annotations, creating and training a CNN model (based on VGG16), performing data augmentation, and utilizing selective search to identify and visualize regions of interest (potential damaged areas) in test images. The code showcases model training, evaluation, and testing for identifying whether an image contains signs of building damage.
 
-Sucessfull Detection       |  
+Model Performance          |  
 :-------------------------:|
 ![grafik](https://github.com/ellyschmid/DeepLearning_DestroyedBuildings/assets/116875590/8cade0f6-1716-4b30-a9e4-542e14542c8b)|
 
