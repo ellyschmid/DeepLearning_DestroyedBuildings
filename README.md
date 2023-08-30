@@ -35,6 +35,8 @@ This code demonstrates the process of building damage detection using Regional B
 ## Result and Outlook
 
 The performance of the model in the training runs always showed good accuracies around 0.9. However, the results in predicting the bounding boxes of destroyed buildings in the test images were different each time. Sometimes the predicted boxes detected the destroyed buildings, other times only parts of them, and sometimes the predicted box was outside the destroyed building. We assume that the main challenge for the model to distinguish between destroyed and intact buildings is mainly the similarity of the intensity of the pixels in all three dimensions of the RGB image, which makes it difficult for the selective search algorithm to suggest the correct regions. To improve the detection of destroyed buildings, it could be beneficial to use proxies that can better distinguish the building types, than RGB bands. Previous studies have shown good results using texture features such as Gray Level Co-occurance Matrix between pre- and postevent images. [1] Unfortunately, this is often only possible with commercial high resolution satellite data such as WorldView-2 or Quickbird.
+![prediction_193](https://github.com/ellyschmid/DeepLearning_DestroyedBuildings/assets/116875590/e56a0063-fe1d-4a34-9bcc-c9c24ead6024)
+![grafik](https://github.com/ellyschmid/DeepLearning_DestroyedBuildings/assets/116875590/e32e9b5d-4d3d-4029-ae88-cd598ee77954)
 
 ### References
 
